@@ -4,7 +4,7 @@ namespace CodeAcademy.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class WeatherForecastController2 : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
@@ -13,7 +13,7 @@ namespace CodeAcademy.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController2(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
         }
