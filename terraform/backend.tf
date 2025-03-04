@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "codeacademysp"
+    resource_group_name  = "TEST_DEV"
     storage_account_name = "terraformcodeacademy"
     container_name       = "tfstate3"
     key                  = "terraform.tfstate3"
